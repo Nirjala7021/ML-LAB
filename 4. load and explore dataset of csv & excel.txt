@@ -10,7 +10,7 @@ print(f"File Name: {csv_file}")
 print(df_csv.info())
 print(df_csv.head())
 workbook = openpyxl.load_workbook(excel_file)
-worksheet = workbook["StudentDT"]
+worksheet = workbook["Sheet1"]
 print("\n Excel Data:")
 print(f"File Name: {excel_file}")
 
